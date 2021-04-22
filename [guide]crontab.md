@@ -20,9 +20,11 @@ minute hour date month day(week) COMMAND/SCRIPT
 ## Some examples
 
 1. Run ffmpeg to output hourly video files (Source: https://stackoverflow.com/questions/43570679/ffmpeg-capture-rtsp-stream-to-hourly-file)
+
 0 * * * * ffmpeg -i rtsp://[IP Address]:[port]/[URL] -vcodec copy -r 60 -t 3540 -y $(date +\%Y\%m\%d\%H).mp4
 
 2. Run a script every 5 minutes
+
 */5 * * * * ffmpeg -i rtsp://[IP Address]:[port]/[URL] -vcodec copy -r 60 -t 3540 -y $(date +\%Y\%m\%d\%H).mp4
 
 **Note**: /5 denotes every 5 [time interval]. Likewise, /1 denotes every 1 [interval]
