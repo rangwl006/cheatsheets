@@ -25,5 +25,5 @@ minute hour date month day(week) COMMAND/SCRIPT
 2. Run a script every 5 minutes
 */5 * * * * ffmpeg -i rtsp://[IP Address]:[port]/[URL] -vcodec copy -r 60 -t 3540 -y $(date +\%Y\%m\%d\%H).mp4
 
-*Note*: /5 denotes every 5 [time interval]. Likewise, /1 denotes every 1 [interval]
+**Note**: /5 denotes every 5 [time interval]. Likewise, /1 denotes every 1 [interval]
 
