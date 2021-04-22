@@ -13,7 +13,7 @@ For help on getting the right inputs, *go to* https://crontab.guru/#
 ## crontab syntax
 The basic syntax of crontab is as follows:
 
-minute hour date month day(week) COMMAND/SCRIPT
+minute hour date month day(week) COMMAND/SCRIPT \n
   \*      \*    \*    \*      \*           echo "feeding time"
 
 ## Some examples
