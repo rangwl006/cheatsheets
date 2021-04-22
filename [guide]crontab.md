@@ -3,7 +3,7 @@
 ## Background
 
 crontab can be used to schedule tasks to be done at different time intervals.
-For help on getting the right inputs, *go to* https://crontab.guru/#*_*_*_*_*
+For help on getting the right inputs, *go to* https://crontab.guru/#
 
 ## Editing the crontab file
 1. View the crontab config file by $ crontab -e
