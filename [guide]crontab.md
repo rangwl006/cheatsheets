@@ -31,5 +31,5 @@ minute hour date month day(week) COMMAND/SCRIPT
 **Note**: when running .sh scripts, chmod 755 first
 
 ## Starting & stopping the service
-1. to start the servce: $ sudo service crontab start
-2. to start the servce: $ sudo service crontab stop
+1. to start the servce: $ sudo service cron start
+2. to start the servce: $ sudo service cron stop
