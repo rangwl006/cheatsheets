@@ -24,7 +24,7 @@ Create multiple RTSP feeds using Docker containers, GStreamer RTSP plugin and Py
 3. *$ apt install python3-dev*
 4. *$ apt install python3-pip*
 5. *$ pip3 install pgi*
-6. *$ apt install gir1.2-gst-rtsp-server-1.0*
+6. *$ apt install gir1.2-gst-rtsp-server-1.0* (Source: https://howtoinstall.co/en/gir1.2-gst-rtsp-server-1.0)
 
 **Note**: Thie order of steps (5) and (6) are important
 
