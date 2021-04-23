@@ -33,3 +33,7 @@ minute hour date month day(week) COMMAND/SCRIPT
 ## Starting & stopping the service
 1. to start the servce: $ sudo service cron start
 2. to start the servce: $ sudo service cron stop
+
+## Monitoring cron jobs
+1. Monitor the cron job using the system logs: $ grep -i cron /var/log/syslog
+2. Monitor the cron job using the cron status: $ service cron status
